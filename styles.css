@@ -82,6 +82,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px 0;
 }
 
 .info h2 {
@@ -128,3 +129,26 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* Quote section formatting */
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.quote {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-sayer {
+    font-family: "Roboto", sans-serif;
+    text-align: right;
+}
