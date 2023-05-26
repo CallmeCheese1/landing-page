@@ -1,0 +1,78 @@
+/** {
+    border: 1px solid;
+    border-color: red;
+}*/
+
+body {
+    margin: 0;
+}
+
+/* Header Formatting */
+
+.header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+#header-logo {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+    color: #F9FAF8;
+}
+
+#header-links {
+    display: flex;
+    gap: 16px;
+}
+
+#header-links a {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/* Hero Formatting */
+
+.hero {
+    display: flex;
+    width: 700px;
+    flex-shrink: 0;
+    padding: 60px;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+    color: #F9FAF8
+}
+
+#hero-secondary {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #E5E7EB;
+}
+
+#hero-button {
+    background-color: #3882F6;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #F9FAF8;
+}
